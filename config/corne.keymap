@@ -49,10 +49,10 @@
 
             label = "Lower";
             bindings = <
-&none  &kp DOUBLE_QUOTES  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL   &kp PLUS       &kp SLASH  &kp UNDERSCORE  &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSPC
-&none  &kp EXCLAMATION    &kp AT_SIGN    &kp HASH          &kp DOLLAR  &kp PERCENT    &kp LEFT   &kp DOWN        &kp UP     &kp RIGHT         &trans             &trans
-&none  &kp SEMICOLON      &trans         &trans            &trans      &bootloader    &trans     &trans          &trans     &trans            &trans             &trans
-                                         &bt BT_CLR        &trans      &kp SPACE      &kp RET    &trans          &kp RALT
+&none  &kp DOUBLE_QUOTES  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL   &kp PLUS       &kp SLASH     &kp UNDERSCORE  &kp MINUS     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none
+&none  &kp EXCLAMATION    &kp AT_SIGN    &kp HASH          &kp DOLLAR  &kp PERCENT    &kp CARET     &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&none  &kp SEMICOLON      &trans         &trans            &trans      &trans         &kp QUESTION  &kp GRAVE       &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &none
+                                         &trans            &trans      &trans         &trans        &trans          &trans
             >;
         };
 
